@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <signal.h>
+#include<sys/epoll.h>
 
 /*** constants ***/
 #define SYSFS_GPIO_DIR "/sys/class/gpio"
