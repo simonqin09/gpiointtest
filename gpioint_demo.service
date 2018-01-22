@@ -1,0 +1,10 @@
+[Unit]
+Description=gpiointtest service, GPIO interrupt and output control
+After=multi-user.target
+ 
+[Service]
+Type=simple
+ExecStart=/usr/bin/gpiointtest
+ 
+[Install]
+WantedBy=multi-user.target
